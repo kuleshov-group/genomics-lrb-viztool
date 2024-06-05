@@ -1,0 +1,6 @@
+.DS_Store
+.idea
+.ipynb_checkpoints
+__pycache__/
+results_with_annotations.zip
+results_with_annotations/

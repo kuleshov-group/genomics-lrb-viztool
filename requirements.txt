@@ -1,0 +1,11 @@
+gdown
+ipdb
+ipython
+ipywidgets
+matplotlib
+notebook
+numpy
+pandas
+scikit-learn
+seaborn
+tqdm
