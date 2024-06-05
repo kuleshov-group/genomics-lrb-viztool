@@ -1,12 +1,12 @@
-# Analyzing results of LRB Benchmarking
+# Analyzing results of Genomics LRB Benchmarking
 
 Use the notebook [`lrb_results_analysis.ipynb`](lrb_results_analysis.ipynb) to analyze results of the initial model benchmarking; slice results by distances to transcription start sites (TSS) and different annotations (e.g., promoter, enhancer, intron/exon, etc.).
 
 ## Getting started
 **Step 1:** Clone this repository:
 ```bash
-git clone git@github.com:yair-schiff/lrb_analysis.git
-cd lrb_analysis
+git clone git@github.com:kuleshov-group/genomics-lrb-viztool.git
+cd genomics-lrb-viztool
 ```
 
 **Step 2:** Create conda env and install requirements:
