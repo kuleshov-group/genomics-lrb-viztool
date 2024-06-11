@@ -82,13 +82,13 @@ class ResultsViz:
                 widgets.VBox([self.model_check_boxes[model]
                               for model in base_models]) if base_models is not None else widgets.VBox([]),
                 widgets.VBox([self.model_check_boxes[model]
-                              for model in self.models if 'dnabert' in model]),
+                              for model in self.models if 'DNABERT' in model]),
                 widgets.VBox([self.model_check_boxes[model]
-                              for model in self.models if 'hyena' in model]),
+                              for model in self.models if 'Hyena' in model]),
                 widgets.VBox([self.model_check_boxes[model]
-                              for model in self.models if 'dcnuc' in model and len(model.split('_')) == 2]),
+                              for model in self.models if 'NTv2' in model and len(model.split(' ')) == 2]),
                 widgets.VBox([self.model_check_boxes[model]
-                              for model in self.models if 'dcnuc' in model and len(model.split('_')) == 3]),
+                              for model in self.models if 'NTv2' in model and len(model.split(' ')) == 3]),
              ], layout=widgets.Layout(width='100%'))
         ])
         
@@ -111,7 +111,7 @@ class ResultsViz:
         self.plot_by_annotation_output = widgets.Output()
         self.plot_by_maf_output = widgets.Output()
         
-        plot_header = widgets.HTML(value="<h3>Result</h3>")
+        plot_header = widgets.HTML(value="<h3>Aggregate Result</h3>")
         display_widgets = [model_widget, plot_header, self.plot_output]
         if self.plot_by_tss_dist_fxn is not None:
             display_widgets += [widgets.HTML(value=f"<h3>Result by Distance to {self.distance_to.capitalize()}</h3>"),
