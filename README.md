@@ -16,9 +16,9 @@ conda activate lrb_env
 pip install -r requirements.txt
 ```
 
-**Step 3:** Download and unzip [results files](https://drive.google.com/file/d/1eCeRQnxHUBKRXUV69bnyZ8LvMfiQrPgC/view?usp=sharing) from Google Drive:
+**Step 3:** Download and unzip [results files](https://huggingface.co/datasets/InstaDeepAI/genomics-long-range-benchmark/blob/main/results_with_annotations.zip) from the HF dataset:
 ```bash
-gdown https://drive.google.com/uc?id=1fkuWgcn3Id2FW5vwm3mOik0JDK2jhT1z
+wget https://huggingface.co/datasets/InstaDeepAI/genomics-long-range-benchmark/blob/main/results_with_annotations.zip
 unzip results_with_annotations.zip
 ```
 
