@@ -18,7 +18,7 @@ pip install -r requirements.txt
 
 **Step 3:** Download and unzip [results files](https://huggingface.co/datasets/InstaDeepAI/genomics-long-range-benchmark/blob/main/results_with_annotations.zip) from the HF dataset:
 ```bash
-wget https://huggingface.co/datasets/InstaDeepAI/genomics-long-range-benchmark/blob/main/results_with_annotations.zip
+wget -O results_with_annotations.zip https://huggingface.co/datasets/InstaDeepAI/genomics-long-range-benchmark/resolve/main/results_with_annotations.zip?download=true
 unzip results_with_annotations.zip
 ```
 
